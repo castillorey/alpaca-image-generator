@@ -1,11 +1,12 @@
-<div class="container flex flex-col justify-center  mx-auto w-full h-full">
+<div class="container flex flex-col mx-auto w-full h-full">
   <h1 class="mb-4">ALPACA GENERATOR</h1>
-  <div class="flex sm:flex-wrap md:flex-nowrap md:space-x-20">
+  <div class="flex flex-wrap md:flex-nowrap md:space-x-20">
     <div class="basis-1/4 mb-8" id="preview">
-      <app-preview></app-preview>
+      <app-preview #preview></app-preview>
+
       <div class="flex space-x-5 mt-8">
-        <app-action-button class="grow">Random</app-action-button>
-        <app-action-button class="grow">Download</app-action-button>
+        <app-action-button class="grow" (clickEvent)="randomizeImage()">Random</app-action-button>
+        <app-action-button class="grow" (clickEvent)="downloadImage()">Download</app-action-button>
       </div>
     </div>
 
