@@ -1,0 +1,44 @@
+#preview-container {
+  width: 350px;
+  height: 350px; 
+  position: relative;
+}
+
+.accessories {
+  position: absolute;
+  z-index: 4;
+}
+
+.ears {
+  position: absolute;
+}
+
+.hair {
+  position: absolute;
+  z-index: 2;
+}
+
+.neck {
+  position: absolute;
+  z-index: 1;
+}
+
+.nose {
+  position: absolute;
+  z-index: 3;
+}
+
+.eyes {
+  position: absolute;
+  z-index: 3;
+}
+
+.mouth {
+  position: absolute;
+  z-index: 4;
+}
+
+.leg {
+  position: absolute;
+  z-index: 3;
+}

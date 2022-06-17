@@ -1,0 +1,248 @@
+{
+  "data": [
+    {
+      "name": "hair",
+      "styles": [
+        {
+          "name": "bang",
+          "value": "../assets/images/alpaca/hair/bang.png"
+        },
+        {
+          "name": "curls",
+          "value": "../assets/images/alpaca/hair/curls.png"
+        },
+        {
+          "name": "default",
+          "value": "../assets/images/alpaca/hair/default.png"
+        },
+        {
+          "name": "elegant",
+          "value": "../assets/images/alpaca/hair/elegant.png"
+        },
+        {
+          "name": "fancy",
+          "value": "../assets/images/alpaca/hair/fancy.png"
+        },
+        {
+          "name": "quiff",
+          "value": "../assets/images/alpaca/hair/quiff.png"
+        },
+        {
+          "name": "short",
+          "value": "../assets/images/alpaca/hair/short.png"
+        }
+      ]
+    },
+    {
+      "name": "ears",
+      "styles": [
+        {
+          "name": "default",
+          "value": "../assets/images/alpaca/ears/default.png"
+        },
+        {
+          "name": "tilt-backward",
+          "value": "../assets/images/alpaca/ears/tilt-backward.png"
+        },
+        {
+          "name": "tilt-forward",
+          "value": "../assets/images/alpaca/ears/tilt-forward.png"
+        }
+      ]
+    },
+    {
+      "name": "eyes",
+      "styles": [
+        {
+          "name": "angry",
+          "value": "../assets/images/alpaca/eyes/angry.png"
+        },
+        {
+          "name": "default",
+          "value": "../assets/images/alpaca/eyes/default.png"
+        },
+        {
+          "name": "naughty",
+          "value": "../assets/images/alpaca/eyes/naughty.png"
+        },
+        {
+          "name": "panda",
+          "value": "../assets/images/alpaca/eyes/panda.png"
+        },
+        {
+          "name": "smart",
+          "value": "../assets/images/alpaca/eyes/smart.png"
+        },
+        {
+          "name": "star",
+          "value": "../assets/images/alpaca/eyes/star.png"
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "styles": [
+        {
+          "name": "astonished",
+          "value": "../assets/images/alpaca/mouth/astonished.png"
+        },
+        {
+          "name": "default",
+          "value": "../assets/images/alpaca/mouth/default.png"
+        },
+        {
+          "name": "eating",
+          "value": "../assets/images/alpaca/mouth/eating.png"
+        },
+        {
+          "name": "laugh",
+          "value": "../assets/images/alpaca/mouth/laugh.png"
+        },
+        {
+          "name": "tongue",
+          "value": "../assets/images/alpaca/mouth/tongue.png"
+        }
+      ]
+    },
+    {
+      "name": "neck",
+      "styles": [
+        {
+          "name": "bend-backward",
+          "value": "../assets/images/alpaca/neck/bend-backward.png"
+        },
+        {
+          "name": "bend-forward",
+          "value": "../assets/images/alpaca/neck/bend-forward.png"
+        },
+        {
+          "name": "default",
+          "value": "../assets/images/alpaca/neck/default.png"
+        }
+      ]
+    },
+    {
+      "name": "leg",
+      "styles": [
+        {
+          "name": "bubble-tea",
+          "value": "../assets/images/alpaca/leg/bubble-tea.png"
+        },
+        {
+          "name": "cookie",
+          "value": "../assets/images/alpaca/leg/cookie.png"
+        },
+        {
+          "name": "default",
+          "value": "../assets/images/alpaca/leg/default.png"
+        },
+        {
+          "name": "game-console",
+          "value": "../assets/images/alpaca/leg/game-console.png"
+        },
+        {
+          "name": "tilt-backward",
+          "value": "../assets/images/alpaca/leg/tilt-backward.png"
+        },
+        {
+          "name": "tilt-forward",
+          "value": "../assets/images/alpaca/leg/tilt-forward.png"
+        }
+      ]
+    },
+    {
+      "name": "accessories",
+      "styles": [
+        {
+          "name": "earings",
+          "value": "../assets/images/alpaca/accessories/earings.png"
+        },
+        {
+          "name": "flower",
+          "value": "../assets/images/alpaca/accessories/flower.png"
+        },
+        {
+          "name": "glasses",
+          "value": "../assets/images/alpaca/accessories/glasses.png"
+        },
+        {
+          "name": "headphone",
+          "value": "../assets/images/alpaca/accessories/headphone.png"
+        }
+      ]
+    },
+    {
+      "name": "backgrounds",
+      "styles": [
+        {
+          "name": "blue60",
+          "value": "../assets/images/alpaca/backgrounds/blue60.png"
+        },
+        {
+          "name": "blue70",
+          "value": "../assets/images/alpaca/backgrounds/blue70.png"
+        },
+        {
+          "name": "darkblue30",
+          "value": "../assets/images/alpaca/backgrounds/darkblue30.png"
+        },
+        {
+          "name": "darkblue50",
+          "value": "../assets/images/alpaca/backgrounds/darkblue50.png"
+        },
+        {
+          "name": "darkblue70",
+          "value": "../assets/images/alpaca/backgrounds/darkblue70.png"
+        },
+        {
+          "name": "green50",
+          "value": "../assets/images/alpaca/backgrounds/green50.png"
+        },
+        {
+          "name": "green60",
+          "value": "../assets/images/alpaca/backgrounds/green60.png"
+        },
+        {
+          "name": "green70",
+          "value": "../assets/images/alpaca/backgrounds/green70.png"
+        },
+        {
+          "name": "grey40",
+          "value": "../assets/images/alpaca/backgrounds/grey40.png"
+        },
+        {
+          "name": "grey70",
+          "value": "../assets/images/alpaca/backgrounds/grey70.png"
+        },
+        {
+          "name": "grey80",
+          "value": "../assets/images/alpaca/backgrounds/grey80.png"
+        },
+        {
+          "name": "red50",
+          "value": "../assets/images/alpaca/backgrounds/red50.png"
+        },
+        {
+          "name": "red60",
+          "value": "../assets/images/alpaca/backgrounds/red60.png"
+        },
+        {
+          "name": "red70",
+          "value": "../assets/images/alpaca/backgrounds/red70.png"
+        },
+        {
+          "name": "yellow50",
+          "value": "../assets/images/alpaca/backgrounds/yellow50.png"
+        },
+        {
+          "name": "yellow60",
+          "value": "../assets/images/alpaca/backgrounds/yellow60.png"
+        },
+        {
+          "name": "yellow70",
+          "value": "../assets/images/alpaca/backgrounds/yellow70.png"
+        }
+      ]
+    }
+  ]
+}

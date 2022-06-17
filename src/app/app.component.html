@@ -1,0 +1,26 @@
+<div class="container flex flex-col justify-center  mx-auto w-full h-full">
+  <h1 class="mb-4">ALPACA GENERATOR</h1>
+  <div class="flex sm:flex-wrap md:flex-nowrap md:space-x-20">
+    <div class="basis-1/4 mb-8" id="preview">
+      <app-preview></app-preview>
+      <div class="flex space-x-5 mt-8">
+        <app-action-button class="grow">Random</app-action-button>
+        <app-action-button class="grow">Download</app-action-button>
+      </div>
+    </div>
+
+    <div class="basis-1/2" id="controls">
+      <h2 class="mb-2">ACCESSORIZE THE ALPACA'S</h2>
+
+       <ng-template ngFor let-feature [ngForOf]="store.state.features">
+         <app-control-button [name]="feature.name" [isActive]="store.state.currentFeature.name == feature.name"></app-control-button>
+       </ng-template>
+   
+      <h2 class="my-2">STYLE</h2>
+
+       <ng-template ngFor let-style [ngForOf]="store.state.currentFeature.styles">
+         <app-control-button [name]="style.name" [isActive]="store.state.currentFeature.activeStyle! && store.state.currentFeature.activeStyle.name == style.name"></app-control-button>
+       </ng-template>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<button class="mx-1 mb-1 py-2 px-6 border-2 border-blue-400
+hover:bg-blue-800 hover:text-white hover:border-blue-800 rounded-full"
+[ngClass]="{'bg-blue-800 border-blue-800 text-white' : isActive, 'bg-transparent text-blue-400' : !isActive}" (click)="selectControl()" >
+  {{name | titlecase}}
+</button>
